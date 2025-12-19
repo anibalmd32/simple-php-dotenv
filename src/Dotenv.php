@@ -1,6 +1,6 @@
 <?php
 
-namespace Anibal\PhpSimpleDotenv;
+namespace SimplePhp;
 
 /**
  * A simple dotenv loader for PHP applications.
@@ -8,7 +8,7 @@ namespace Anibal\PhpSimpleDotenv;
  * This class provides functionality to load environment variables from .env files
  * and make them available through PHP's getenv() function.
  */
-class SimpleDotenv
+class Dotenv
 {
     /**
      * Load environment variables from a .env file.
@@ -26,10 +26,10 @@ class SimpleDotenv
      * @example
      * ```php
      * // Load from default .env file
-     * SimpleDotenv::load();
+     * SimplePhp\Dotenv::load();
      *
      * // Load from custom path
-     * SimpleDotenv::load('/path/to/custom.env');
+     * SimplePhp\Dotenv::load('/path/to/custom.env');
      *
      * // Access loaded variables
      * $value = getenv('MY_VARIABLE');
