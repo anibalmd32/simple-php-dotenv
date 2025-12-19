@@ -1,6 +1,14 @@
 {
-    "name": "anibal/php-simple-dotenv",
+    "name": "anibalmd32/simple-php-dotenv",
     "description": "PHP Script for get environment variables from an .env file and set on the php local environment",
+    "homepage": "https://github.com/anibalmd32/simple-php-dotenv",
+    "keywords": [
+        "dotenv",
+        "environment",
+        "variables",
+        "php",
+        "simple"
+    ],
     "version": "1.0.0",
     "type": "library",
     "require": {
