@@ -35,3 +35,7 @@ ANOTHER_KEY='value with quotes'
 ```
 
 This library will ignore empty lines and lines starting with `#`.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
