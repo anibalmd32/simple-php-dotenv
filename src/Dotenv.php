@@ -45,7 +45,7 @@ class Dotenv
                 fn ($line) => !empty(trim($line) && !str_starts_with(trim($line), '#'))
             );
 
-            if (count($dotenv_lines) > 0) {
+            if (\count($dotenv_lines) > 0) {
                 foreach ($dotenv_lines as $dotenv_line) {
                     list($key, $value) = explode('=', $dotenv_line);
 
@@ -55,7 +55,7 @@ class Dotenv
                 }
             }
         } else {
-            throw new \Exception('no such a dotenv file in this project');
+            throw new \ErrorException('no such a dotenv file in this project');
         }
     }
 }
